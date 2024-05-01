@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,p {
 }
 
 .lledo-red {
-    color: rgb(255, 22, 22);
+    color: rgb(240, 0, 0);
     text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
 
@@ -33,16 +33,20 @@ h1,h2,h3,h4,h5,p {
 
 .link-red {
     text-decoration: underline;
-    color: rgb(255, 0, 0)!important;
+    color: rgb(223, 0, 0)!important;
 }
 
 .link-red:hover {
-    color: rgb(200, 0, 0)!important;
+    color: rgb(173, 0, 0)!important;
+}
+
+.text-justify {
+    text-align:justify;
 }
 
 .bandeau {
     height:250px;
-    background: url("/assets/images/bandeau.jpg");
+    background: url("../images/bandeau.jpg");
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover; 
@@ -53,6 +57,7 @@ h1,h2,h3,h4,h5,p {
  right: 50px;
  top: 50%;
  transform: translateY(-50%);
+ z-index: 1;
 }
 
 .pictogramme {
