@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+h1,h2,h3,h4,h5,p {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.link-default {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.link-default:hover {
+    color: rgb(160, 160, 160);
+}
+
+.link-blue {
+    text-decoration: underline;
+    color: rgb(0, 0, 255) !important;
+}
+
+.link-blue:hover {
+    color: rgb(0, 0, 200)!important;
+}
+
+.lledo-red {
+    color: rgb(255, 22, 22);
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.lledo-blue {
+    color: rgb(0, 0, 255);
+}
+
+.link-red {
+    text-decoration: underline;
+    color: rgb(255, 0, 0)!important;
+}
+
+.link-red:hover {
+    color: rgb(200, 0, 0)!important;
+}
+
+.bandeau {
+    height:250px;
+    background: url("/assets/images/bandeau.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover; 
+}
+
+.contact {
+ position:fixed;
+ right: 50px;
+ top: 50%;
+ transform: translateY(-50%);
+}
+
+.pictogramme {
+    background-color: white;
+}
+
+.fa-color {
+    color: rgb(223, 0, 0); 
+}
+
+.pictogramme:hover {
+    background-color: rgb(223, 0, 0); 
+}
+
+.pictogramme:hover .fa-color {
+    color: white; 
+}
+
+
+
